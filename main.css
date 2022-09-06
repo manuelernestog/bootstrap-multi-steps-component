@@ -1,0 +1,7 @@
+.multi-steps-form .step{ 
+    display: none;
+}
+
+.multi-steps-form .step.active{ 
+    display: block;
+}

@@ -1,2 +1,8 @@
 # multi-steps-form
-Easily create multi steps forms
+Easily create a multi-step form for bootstrap.
+
+
+
+
+
+

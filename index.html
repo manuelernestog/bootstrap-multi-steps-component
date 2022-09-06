@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Multi Steps Form Component for Bootstrap</title>
+    <meta name="description" content="Multi Steps Form Component for Bootstrap with Bootstrap like sintaxis component.">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top p-2">
+        <div class="container">
+            <a class="navbar-brand keychainify-checked" href="#">
+                <i class="bi bi-collection mx-2"></i> Multi Step Form</a>
+                <a><i class="bi bi-github mx-2 text-white" style="font-size: 22px;"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        <header class="py-5">
+            <div class="container-xxl bd-gutter pt-md-1 pb-md-4">
+                <div class="row">
+                    <div class="col-xl-5">
+                        <h2 class="bd-title mt-0">Multi Steps Form Component for Bootstrap</h2>
+                        <p class="bd-lead">Easily create a multi-step form for bootstrap.</p>
+                        <ul>
+                            <li>Bootstrap like sintaxis component</li>
+                            <li>No Js configuration required</li>
+                            <li>Installation with CDN</li>
+                          </ul>
+                        <a type="submit" class="btn btn-primary mb-3">See the doc in Github</a>
+                     </div>
+                    <div class="col-xl-7 d-lg-flex justify-content-xl-end">
+                        <div class="card p-3" style="width: 400px; margin: auto;">
+                            <div class="multi-steps-form faded">
+                                <div class="step fade active show" id="step1">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Step 1</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Example
+                                            textarea</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <button class="btn btn-primary step-link" type="button"
+                                            data-bs-target="#step2">Next</button>
+                                    </div>
+                                </div>
+                                <div class="step fade" id="step2">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Step 2</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Step 1</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <button class="btn btn-primary step-link" type="button"
+                                            data-bs-target="#step1">Back</button>
+                                        <button class="btn btn-primary step-link" type="button"
+                                            data-bs-target="#step3">Next</button>
+                                    </div>
+                                </div>
+                                <div class="step fade" id="step3">
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlInput1" class="form-label">Step 3</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                                            placeholder="name@example.com">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleFormControlTextarea1" class="form-label">Example
+                                            textarea</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            rows="3"></textarea>
+                                    </div>
+                                    <div class="mb-3">
+                                        <button class="btn btn-primary step-link" data-bs-target="#step2"
+                                            type="button">Back</button>
+                                        <button class="btn btn-secondary" type="button">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <footer class="py-3 my-4">
+        <p class="text-center text-muted">Made with ❤️ in Cuba by <a href="http://manuelernestogr.bio.link">Manuel Ernesto Garcia</a></p>
+    </footer>
+    <script src='main.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
