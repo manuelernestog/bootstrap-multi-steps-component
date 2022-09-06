@@ -6,6 +6,10 @@ Easily create a multi-step form for bootstrap.
 - No Js configuration required
 - Installation with CDN
 
+## Demo
+
+https://manuelernestog.github.io/bootstrap-multi-steps-component/
+
 ## Requirements
 
 Before include multi-steps-form you should install [Bootstrap](https://getbootstrap.com/) in your project.
