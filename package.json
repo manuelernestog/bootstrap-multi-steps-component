@@ -1,0 +1,19 @@
+{
+    "name": "bootstrap-multi-steps-component",
+    "description": "Multi Steps Form Component for Bootstrap",
+    "version": "1.0.2",
+    "main": "dist/bootstrap-multi-steps-component.js",
+    "style": "dist/bootstrap-multi-steps-component.css",
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/manuelernestog/bootstrap-multi-steps-component.git"
+      },
+     "keywords": ["bootstrap","component","multi-steps","form"],
+      "author": {
+      "name" : "Manuel Ernesto Garcia",
+      "email" : "contact.manuelernestog@gmail.com",
+      "url" : "http://manuelernestogr.bio.link/"
+    },
+      "license": "MIT"
+    }
