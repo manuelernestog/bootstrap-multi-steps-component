@@ -45,6 +45,17 @@ Inside the `multi-steps-form` tag create a `<div>` tag with class `step` for ste
 
 For change between steps creat a tag with class `step-link` and add the attribute `data-bs-target="[step_id]"`.
 
+You can also move between steps using Javascript.
+
+``` javascript
+const multiStepForm = new MultiStepForm("#form-container");
+
+document.getElementById("buttonId").addEventListener("click", () => {
+    ...
+    multiStepForm.show("#step3");
+});
+```
+
 ## Contribution
 
 Suggestions and pull requests are welcomed!
