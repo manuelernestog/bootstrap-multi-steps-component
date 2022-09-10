@@ -19,9 +19,9 @@ Before include multi-steps-form you should install [Bootstrap](https://getbootst
 Simply include CDN file in your project. Put the CSS file inside `<head>` tag and the Js file in the bottom of your `<body>` tag.
 
 ```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-multi-steps-component@1.0.2/dist/bootstrap-multi-steps-component.min.css" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-multi-steps-component@1.2.0/dist/bootstrap-multi-steps-component.min.css" type="text/css" media="all" />
 ...
-<script src='https://cdn.jsdelivr.net/npm/bootstrap-multi-steps-component@1.0.2/dist/bootstrap-multi-steps-component.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap-multi-steps-component@1.2.0/dist/bootstrap-multi-steps-component.min.js'></script>
 ```
 
 ## Usage

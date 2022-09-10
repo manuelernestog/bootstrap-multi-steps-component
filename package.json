@@ -1,7 +1,7 @@
 {
     "name": "bootstrap-multi-steps-component",
     "description": "Multi Steps Form Component for Bootstrap",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "main": "dist/bootstrap-multi-steps-component.js",
     "style": "dist/bootstrap-multi-steps-component.css",
     "type": "module",
