@@ -21,3 +21,15 @@ function change_step(origen_step, target_step, faded) {
     target_step.classList.add("active");
   }, delay);
 }
+
+class MultiStepForm {
+  constructor(form_selector) {
+    this.form = document.querySelector(form_selector);
+    this.faded = this.form.classList.contains("faded");
+  }
+  show(step_selector) {
+    const target_step = this.form.querySelector(step_selector);
+    const origen_step = this.form.querySelector(".step.active");
+    change_step(origen_step, target_step, this.faded);
+  }
+}
